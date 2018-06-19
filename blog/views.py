@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.utils import timezone
-from .models import Post
+from .models import Post  # En django . significa que se está llamando a un módulo en el mismo directorio
 
 # Create your views here.
 
